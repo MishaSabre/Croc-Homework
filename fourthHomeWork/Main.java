@@ -21,7 +21,7 @@ public class Main {
             File file = new File(s);
 
             /*
-            Check exist file or not
+            Check exist file or not, if file isn't exist output in console "File isn't exist in directory"
              */
             if(file.exists()) {
                 StringBuilder sb = new StringBuilder();
